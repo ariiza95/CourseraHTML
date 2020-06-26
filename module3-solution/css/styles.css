@@ -53,7 +53,7 @@ section#containerS{
   /* Home page */
 
   .col-xxs-12 {
-    position: absolute;
+    position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
