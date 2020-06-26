@@ -1,0 +1,63 @@
+body{
+	background: lightgreen;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  color: #007c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold italic;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list{
+	background-color: lightgray;
+}
+p {  
+  color: black;
+  font-size: 175%;
+  width: 33%;
+  text-align: center;
+}
+section#containerS{  
+  padding:10px;
+  position:relative;
+  background-color: white;
+  margin:10px;  
+  border: 1px solid black;
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+
+  .col-xxs-12 {
+    position: absolute;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    width: 100%;
+  }
+}
