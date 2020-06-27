@@ -8,13 +8,13 @@ body{
   border: 0;
 }
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Arial', serif;
   color: #007c3e;
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-transform: uppercase;
   font-weight: bold italic;
   text-shadow: 1px 1px 1px #000;
